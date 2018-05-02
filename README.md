@@ -76,3 +76,14 @@ Use your terminal and go to the root folder. Execute the following commands:
   docker-compose run --rm server npm run integration-coverage
 
 ```
+
+**Step 6 - Amazon Elastic Beanstalk deployment
+
+Make sure that you have a AWS account setup on your local computer. Also make sure that you have the Elastic Beanstalk CLI tool installed. https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
+
+```sh
+
+  docker-compose run --rm server npm run unit-test
+  docker-compose run --rm server npm run integration-coverage
+
+```
