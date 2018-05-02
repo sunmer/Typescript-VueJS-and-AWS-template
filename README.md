@@ -17,12 +17,12 @@ This template demonstrates a Typescript stack which is also easily deployable to
 Running inside a multi container Docker environment, there's basically four parts to the application.
 
 ## Application architecture
- * Server - folder /server
- * * The API of the application which is served via Express
- * Web - folder /web
- * * The front-end of the application which is served via the simple http-server
- * Nginx - folder /proxy
- * * Serves as a reverse proxy to route requests to either the api located under /server, or the front-end located under /
+ * Server
+ * * The API of the application which is served via Express. Lives in folder /server.
+ * Web
+ * * The front-end of the application which is served via the http-server. Lives in folder /web.
+ * Nginx
+ * * Serves as a reverse proxy to route requests to either the api located under /server, or the front-end located under /. Lives in folder proxy.
 
 
 ## Install server
