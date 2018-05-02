@@ -5,8 +5,8 @@
   "description": "",
   "scripts": {
     "webpack": "webpack",
-    "start-dev": "webpack --watch & http-server -p 3001",
-    "start-prod": "webpack & http-server -p 3001",
+    "start-dev": "webpack --watch & http-server static -p 3001",
+    "start-prod": "webpack & http-server static -p 3001",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
