@@ -1,8 +1,9 @@
-# Typescript, VueJS (with Vuex) and Postgres example.
+# Typescript, VueJS (with Vuex) and Postgres example
 ## Requirements
- * NodeJS 6.10.2+ Support ES6
- * NPM 3.10.10+ 
- * Docker latest
+ * Docker
+
+This template shows how to set up a complete project, with the following frameworks:
+*  
 
 ## Install server
 
