@@ -31,7 +31,7 @@ Running inside a multi container Docker environment, there's basically four part
 
 ## How do I get the application running locally?
 
-**Step 1 - compiling the API** 
+**Step 1 - installing the API** 
 
 Set up the API by going to your terminal and to the folder /server. Then execute the following commands:
 
@@ -42,7 +42,7 @@ Set up the API by going to your terminal and to the folder /server. Then execute
   
 ```
 
-**Step 2 - compiling the front-end** 
+**Step 2 - installing the front-end** 
 
 Set up the front-end by going to your terminal and to the folder /web. Then execute the following commands:
 
@@ -63,7 +63,7 @@ To start the application, use your terminal and go to the root folder. Then exec
  
 ```
 
-The above command will basically set up the entire application structure. Both the API and Front-end hot reload code when run locally.
+The above command will basically set up the entire application structure (see https://github.com/sunmer/typescript-vuejs-aws-template#application-architecture). Both the API and Front-end hot reload code when run locally.
 
 **Step 4 - verify that the application is up and running**
 
@@ -76,8 +76,8 @@ Use your terminal and go to the root folder. Execute the following commands:
 
 ```sh
 
-  docker-compose run --rm server npm run unit-test
   docker-compose run --rm server npm run integration-coverage
+  docker-compose run --rm server npm run unit-test
 
 ```
 
