@@ -3,15 +3,25 @@
  * Docker
 
 ## Stack
- * Node
- * Typescript
- * Express
- * VueJS
- * Vuex
- * Webpack
+ * Elastic Beanstalk
+ * Nginx
+ * Postgres (9.6)
+ * Node (7.5+)
+ * Typescript (2.8.3+)
+ * Express (4.15.3+)
+ * VueJS (2.5.13+)
+ * Vuex (3.0.1+)
+ * Webpack (2.7.0+)
 
-This template shows how to set up a complete project, with the following frameworks:
-*  
+This template demonstrates a Typescript stack which is also easily deployable to Amazons AWS.
+Running inside a multi container Docker environment, there's basically four parts to the application.
+
+## Stack
+ * Server (folder: /server)
+ * * The API of the application
+ * Nginx
+ * Postgres (9.6)
+ * Node (7.5+)
 
 ## Install server
 
