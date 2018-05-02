@@ -30,6 +30,7 @@ Running inside a multi container Docker environment, there's basically four part
 ## How do I get the application running locally?
 
 **Step 1 - compiling the API** 
+
 Set up the API by going to your terminal and to the folder /server. Then execute the following commands:
 
 ```sh
@@ -40,6 +41,7 @@ Set up the API by going to your terminal and to the folder /server. Then execute
 ```
 
 **Step 2 - compiling the front-end** 
+
 Set up the front-end by going to your terminal and to the folder /web. Then execute the following commands:
 
 ```sh
@@ -50,6 +52,7 @@ Set up the front-end by going to your terminal and to the folder /web. Then exec
 ```
 
 **Step 3 - running the application** 
+
 To start the application, use your terminal and go to the root folder. Then execute the following command:
 
 ```sh
@@ -58,11 +61,13 @@ To start the application, use your terminal and go to the root folder. Then exec
  
 ```
 
-**Step 4 - verify that the application is up and running** 
+**Step 4 - verify that the application is up and running**
+
 Open your favorite browser and go to http://localhost. You should see a blank page with a form for creating users.
 
 
 **Step 5 - run the integration tests** 
+
 Use your terminal and go to the root folder. Execute the following commands:
 
 ```sh
