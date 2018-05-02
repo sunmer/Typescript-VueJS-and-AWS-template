@@ -20,11 +20,11 @@ Running inside a multi container Docker environment, there's basically four part
  **Server**
  * The API of the application which is served via Express. Folder /server.
 
- **Web**
+ **Front-end**
  * The front-end of the application which is served via the http-server. Folder /web.
 
  **Nginx**
- * Serves as a reverse proxy to route requests to either the API or the Web. Folder /proxy.
+ * Serves as a reverse proxy to route requests to either the API or the Front-end. Folder /proxy.
 
  **Postgres**
  * Serves as the test, local and production database. Is fully managed locally with Docker.
@@ -62,6 +62,8 @@ To start the application, use your terminal and go to the root folder. Then exec
   docker-compose up
  
 ```
+
+The above command will basically set up the entire application structure. Both the API and Front-end hot reload code when run locally.
 
 **Step 4 - verify that the application is up and running**
 
