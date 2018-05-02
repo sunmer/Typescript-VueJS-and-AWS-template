@@ -94,3 +94,5 @@ Then go to the root folder and execute the following commands:
   eb deploy
 
 ```
+
+Most of the API code has been shamelessly forked from https://github.com/lhenriquegomescamilo/template-server-nodejs 
