@@ -79,6 +79,8 @@ Use your terminal and go to the root folder. Execute the following commands:
 
 **Step 6 - Amazon Elastic Beanstalk deployment**
 
+This project is configured to deploy to Elastic Beanstalk and the AWS Elastic Container service.
+
 Make sure that you have a AWS account setup on your local computer. Also make sure that you have the Elastic Beanstalk CLI tool installed. https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
 Then go to the root folder and execute the following commands:
 
