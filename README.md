@@ -26,6 +26,8 @@ Running inside a multi container Docker environment, there's basically four part
  **Nginx**
  * Serves as a reverse proxy to route requests to either the API or the Web. Folder /proxy.
 
+ **Postgres**
+ * Serves as the test, local and production database. Is fully managed locally with Docker.
 
 ## How do I get the application running locally?
 
