@@ -1,6 +1,14 @@
 # Typescript, VueJS (with Vuex) and Postgres example
-## Requirements
+## Software requirements
  * Docker
+
+## Stack
+ * Node
+ * Typescript
+ * Express
+ * VueJS
+ * Vuex
+ * Webpack
 
 This template shows how to set up a complete project, with the following frameworks:
 *  
