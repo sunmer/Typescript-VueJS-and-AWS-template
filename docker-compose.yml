@@ -1,0 +1,39 @@
+version: "2.1"
+
+services:
+  server:
+    build: ./server
+    volumes:
+      - ./server:/server
+      - ./web:/web
+    ports:
+      - "3000:3000"
+    links:
+      - "db"
+    depends_on:
+      - "db"
+    environment:
+      NODE_ENV: "development"
+  web:
+    build: ./web
+    volumes:
+      - ./web:/web
+    ports:
+      - "3001:3001"
+  db:
+    image: postgres:9.6
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "secret"
+      POSTGRES_DB: "ts-api"
+    ports:
+      - "5432:5432"
+  nginx:
+    image: nginx
+    ports:
+     - "80:80"
+    volumes:
+     - ./proxy/conf.d:/etc/nginx/conf.d
+    depends_on:
+     - server
+     - web
