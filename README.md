@@ -19,8 +19,10 @@ Running inside a multi container Docker environment, there's basically four part
 ## Application architecture
  **Server**
  * The API of the application which is served via Express. Lives in folder /server.
+
  **Web**
  * The front-end of the application which is served via the http-server. Lives in folder /web.
+ 
  **Nginx**
  * Serves as a reverse proxy to route requests to either the api located under /server, or the front-end located under /. Lives in folder proxy.
 
