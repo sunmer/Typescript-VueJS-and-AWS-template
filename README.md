@@ -58,7 +58,12 @@ To start the application, use your terminal and go to the root folder. Then exec
  
 ```
 
-## Run tests
+**Step 4 - verify that the application is up and running** 
+Open your favorite browser and go to http://localhost. You should see a blank page with a form for creating users.
+
+
+**Step 5 - run the integration tests** 
+Use your terminal and go to the root folder. Execute the following commands:
 
 ```sh
 
@@ -66,7 +71,3 @@ To start the application, use your terminal and go to the root folder. Then exec
   docker-compose run --rm server npm run integration-coverage
 
 ```
-
-## Notes
-
-Inspect container: ``docker exec -it paybird_server_1 sh``
