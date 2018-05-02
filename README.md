@@ -18,18 +18,19 @@ Running inside a multi container Docker environment, there's basically four part
 
 ## Application architecture
  **Server**
- * The API of the application which is served via Express. Lives in folder /server.
+ * The API of the application which is served via Express. Folder /server.
 
  **Web**
- * The front-end of the application which is served via the http-server. Lives in folder /web.
- 
+ * The front-end of the application which is served via the http-server. Folder /web.
+
  **Nginx**
- * Serves as a reverse proxy to route requests to either the api located under /server, or the front-end located under /. Lives in folder proxy.
+ * Serves as a reverse proxy to route requests to either the API or the Web. Folder /proxy.
 
 
-## Install server
+## How do I get the application running locally?
 
-Inside the server folder use the command
+**Step 1 - compiling the API** 
+Set up the API by going to your terminal and to the folder /server. Then execute the following commands:
 
 ```sh
 
@@ -38,17 +39,18 @@ Inside the server folder use the command
   
 ```
 
-## Install web
-
-Inside the web folder use the command
+**Step 2 - compiling the front-end** 
+Set up the front-end by going to your terminal and to the folder /web. Then execute the following commands:
 
 ```sh
 
   npm install
+  npm run webpack
   
 ```
 
-To start the server, use the command:
+**Step 3 - running the application** 
+To start the application, use your terminal and go to the root folder. Then execute the following command:
 
 ```sh
 
