@@ -42,6 +42,7 @@ Set up the API by going to your terminal and to the folder /server. Then execute
   
 ```
 
+
 **Step 2 - installing the front-end** 
 
 Set up the front-end by going to your terminal and to the folder /web. Then execute the following commands:
@@ -52,6 +53,7 @@ Set up the front-end by going to your terminal and to the folder /web. Then exec
   npm run webpack
   
 ```
+
 
 **Step 3 - running the application** 
 
@@ -64,6 +66,7 @@ To start the application, use your terminal and go to the root folder. Then exec
 ```
 
 The above command will basically set up the entire application structure (see https://github.com/sunmer/typescript-vuejs-aws-template#application-architecture). Both the API and Front-end hot reload code when run locally.
+
 
 **Step 4 - verify that the application is up and running**
 
@@ -81,6 +84,7 @@ Use your terminal and go to the root folder. Execute the following commands:
 
 ```
 
+
 **Step 6 - Amazon Elastic Beanstalk deployment**
 
 This project is configured to deploy to Elastic Beanstalk and the AWS Elastic Container service.
@@ -96,3 +100,4 @@ Then go to the root folder and execute the following commands:
 ```
 
 Most of the API code has been shamelessly forked from https://github.com/lhenriquegomescamilo/template-server-nodejs 
+
