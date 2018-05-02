@@ -57,15 +57,13 @@ Set up the front-end by going to your terminal and to the folder /web. Then exec
 
 **Step 3 - running the application** 
 
-To start the application, use your terminal and go to the root folder. Then execute the following command:
+To start the application, use your terminal and go to the root folder. Then execute this command, which will basically set up the entire application structure (see https://github.com/sunmer/typescript-vuejs-aws-template#application-architecture). Both the API and Front-end hot reload code when run locally.
 
 ```sh
 
   docker-compose up
  
 ```
-
-The above command will basically set up the entire application structure (see https://github.com/sunmer/typescript-vuejs-aws-template#application-architecture). Both the API and Front-end hot reload code when run locally.
 
 
 **Step 4 - verify that the application is up and running**
