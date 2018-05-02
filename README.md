@@ -16,12 +16,14 @@
 This template demonstrates a Typescript stack which is also easily deployable to Amazons AWS.
 Running inside a multi container Docker environment, there's basically four parts to the application.
 
-## Stack
- * Server (folder: /server)
- * * The API of the application
- * Nginx
- * Postgres (9.6)
- * Node (7.5+)
+## Application architecture
+ * Server - folder /server
+ * * The API of the application which is served via Express
+ * Web - folder /web
+ * * The front-end of the application which is served via the simple http-server
+ * Nginx - folder /proxy
+ * * Serves as a reverse proxy to route requests to either the api located under /server, or the front-end located under /
+
 
 ## Install server
 
